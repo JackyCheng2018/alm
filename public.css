@@ -1,0 +1,88 @@
+*{ margin:0; padding:0; font-size:12px;}
+li{ list-style-type:none;}
+.boxTop{ width:1024px; height:28px; background-color:#000; margin:0 auto;}
+.boxTop .huanying{ color:#FFF; float:left; height:28px; line-height:28px; padding-left:20px;}
+.boxTop .denglu{ padding-left:585px; float:left; padding-top:8px;}
+.boxTop .denglu a{ color:#FFF; text-decoration:none;}
+.navTop{ float:right; padding-right:15px; padding-top:8px}
+.navTop li{ float:left;; padding-left:8px; padding-right:8px; border-right:1px solid #FFF; overflow:hidden; height:14px;}
+.navTop li a{ white-space:nowrap; color:#FFF; height:12px; text-decoration:none;}
+.navTop li a:hover{ text-decoration:underline; color:#db0000;}
+li.navTopLast{ border:0;}
+.boxLogo{ width:1024px; height:130px; margin:0 auto;}
+.logoLeft{ padding-left:10px; padding-right:60px;}
+.logoRight{ padding-left:65px;}
+.boxNav{ width:1024px; margin:0 auto; height:37px; border-bottom:2px solid #000; border-top:2px solid #000;}
+.boxNav li{ float:left;}
+.boxNav li a{ width:146px; height:37px; display:block; text-align:center; line-height:37px; text-decoration:none; font-size:14px; font-weight:bold; color:#000;}
+.boxNav li a:hover{ background-color:#000; color:#e8322b;}
+img{ border:0;}
+.logoBig{ margin:0 auto; width:981px; padding-top:11px; padding-bottom:20px;}
+.boxBottom{ width:981px; margin:0 auto; overflow:hidden;}
+.boxBottom dl{ width:350px; display:block; float:left}
+.boxBottom dt{ padding-bottom:16px;}
+.boxBottom dd{ height:23px; border-bottom:1px solid #d6d6d6; padding-top:12px;}
+.boxBottom dd a{ text-decoration:none; color:#333333;}
+.boxBottom dd a:hover{ text-decoration:underline; color:#db0000;}
+.boxBottom ul{ float:right;}
+.pictureshizi{ border:1px solid #999; margin-bottom:5px;}
+.boxBottom .boxBottomMiddle{ width:340px;}
+.jianbianxian{ width:1024px; margin:0 auto; height:17px; background-image:url(images/jianbianxian.jpg); margin-top:3px;}
+.boxFooter{ width:1024px; margin:0 auto; text-align:center; padding-top:12px; color:#555555;}
+/*关于我们*/
+.boxGuanyuwomen{ width:981px; margin:0 auto; overflow:hidden;}
+.guanyuwomenDl{ width:268px;}
+.guanyuwomenDl dt{ width:253px; height:33px; line-height:33px; background-image:url(images/guanyuwomenBg.jpg); font-size:14px; font-weight:bold; color:#000; padding-left:15px;}
+.guanyuwomenDl dd{ width:200px; height:31px; border-bottom:1px dashed #999; padding-left:68px;}
+.guanyuwomenDl dd a{ font-weight:bold; line-height:31px; text-decoration:none; color:#000;}
+.guanyuwomenDl .currentGuanyu a{ color:#ae0000;}
+.guanyuwomenDl .currentGuanyu{ background-image:url(images/jiantouhei.jpg); background-repeat:no-repeat; background-position:252px 10px;}
+.xinwenzhongxinDl{ width:268px;}
+.xinwenzhongxinDl dt{ width:253px; height:55px; padding-left:15px; line-height:55px;}
+.xinwenzhongxinDl dt a{ font-size:14px; font-weight:bold; color:#000; text-decoration:none;}
+.xinwenzhongxinDl dd{ width:212px; height:35px; border-bottom:1px solid #d6d6d6; line-height:35px; padding-left:56px; background-image:url(images/NEWS.jpg); background-repeat:no-repeat; background-position:15px 12px;}
+.xinwenzhongxinDl dd a{ text-decoration:none; color:#333333;}
+.xinwenzhongxinDl dd a:hover{ text-decoration:underline; color:#db0000;}
+.boxGuanyuwomenLeft{ float:left; width:300px;}
+.boxGuanyuwomenRight{ float:left; width:678px;}
+.gongsijieshao{ font-size:14px; font-weight:bold; height:33px; line-height:33px;}
+.jieshaowenzi{ padding-top:10px; padding-bottom:6px;}
+.jieshaowenzi img{border:1px solid #a9a9a9; padding:2px; float:left; margin-right:10px;}
+.jieshaowenzi p{ text-indent:24px; line-height:24px;}
+.boxGuanyuwomenRight2,.boxGuanyuwomenRight3{ display:none;}
+/*音乐培训*/
+.lianxiwomenDl{ width:250px; height:177px; border:1px solid #dedede; margin-top:16px; padding-left:16px; background-image:url(images/lianxiwomenDlBg.jpg); overflow:hidden;}
+.lianxiwomenDl dt{ font-size:14px; font-weight:bold; height:42px; line-height:42px; background-image:url(images/jiantouhong.jpg); background-repeat:no-repeat; background-position:220px 16px;}
+.lianxiwomenDl dd{ padding-bottom:13px;}
+.wudaoyanchang{ padding-left:105px; padding-bottom:25px;}
+.wudaoyanchang img{ padding:2px; border:1px solid #a9a9a9;}
+.fengge{ height:30px; font-size:14px; font-weight:bold; background-image:url(images/hongheixian.jpg); background-repeat:no-repeat; background-position:0 20px;}
+.fengge2{ width:661px; text-indent:24px; line-height:24px;}
+.peixun1,.peixun2,.peixun3,.peixun4,.peixun5,.peixun6,.peixun7,.peixun8,.peixun9{ display:none;}
+/*音乐制作*/
+.boxMVzhizuo{ width:665px; padding-bottom:20px;}
+.boxMVzhizuo img{ padding:2px; border:1px solid #949494; float:left; margin-right:10px;}
+.boxMVzhizuo h1{ height:28px; line-height:28px;}
+.boxMVzhizuo p{ line-height:24px;}
+.yemian{ padding-left:100px;}
+.yemian li{ float:left; padding-right:8px;}
+.yemian li a{ display:block; width:22px; height:22px; line-height:22px; text-align:center; text-decoration:none; background-image:url(images/kongbaiye.jpg); color:#464646;}
+.yemian li .shangyiye{ width:58px; background-image:url(images/qianyiye.jpg); padding-left:5px;}
+.yemian li .xiayiye{ width:58px; background-image:url(images/houyiye.jpg); padding-right:5px}
+.yemian li .yeCurrent{ background-image:url(images/dangqianye.jpg); color:#FFF;}
+.zhizuo1{ display:none;}
+/*演艺经纪*/
+.yanyi{ width:250px; padding-left:16px;}
+.yanyi h1{ height:33px; line-height:33px; font-size:14px; background-image:url(images/jiantouhong.jpg); background-repeat:no-repeat; background-position:222px 16px;}
+.yanyi p{ line-height:24px;}
+.qixiayiren{ width:665px; height:33px; line-height:33px; background-image:url(images/guanyuwomenBg.jpg); font-size:14px; font-weight:bold; color:#000; padding-left:15px;}
+.qixiayiren a{ float:right; padding-right:10px; font-weight:normal; color:#b31010; text-decoration:none;}
+.yiren{ padding-top:9px; padding-bottom:9px;}
+.yiren img{ padding:2px; border:1px solid #949494; margin:9px;}
+/*语言培训*/
+.yuyan1,.yuyan2,.yuyan3{ display:none;}
+/*联系我们*/
+.boxLianxiwomen{ width:981px; margin:0 auto;}
+.boxLianxiwomen p{ line-height:24px; padding-left:10px;}
+.boxLianxiwomen p img{ border:1px solid #c5c5c5; margin:15px 0;}
+
